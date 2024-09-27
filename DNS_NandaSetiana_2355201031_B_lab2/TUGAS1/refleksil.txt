@@ -1,0 +1,24 @@
+Q1 : Apa hal baru yang kamu pelajari melalui lab ini?
+A1 : 1. variabel adalah menyimpan data atau nilai.
+     2. syarat dan ketentuan variabel yaitu huruf kapital dan huruf kecil memiliki arti yg berbeda.
+     3. case sensitive pada python adalah cara komputer memperlakukan kepekaan terhadap huruf, yakni apakah dalam bentuk huruf besar atau huruf kecil.
+        contohnya  alert() benar
+                   Alert() salah
+                   ALERT() salah
+     4. macam-macam penulisan variabel 
+        -pascal case : NandaSetiana
+        -camel case  : nandaSetiana
+        -snake case  : nanda_setiana
+     5. tipe data dalam python
+        1.str : x="Hello Nanda"
+        2.int : x=20
+        3.float : x=20.5
+        4.complex : x=1j
+        5.list : x=["apple", "banana", "cherry"]      
+        6.tuple : x=("apple", "banana", "cherry")      
+        7.set : x={"apple", "banana", "cherry"} 
+        8.range : x=range (6) 
+Q2 : Hal apa yang masih kamu sulit pahami ?
+A2 : tipe data
+Q3 : Berapa alokasi waktu kamu untuk mempelajari materi minggu ini?
+A3 : seminggu      
