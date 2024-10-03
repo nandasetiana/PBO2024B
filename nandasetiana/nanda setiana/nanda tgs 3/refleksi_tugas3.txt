@@ -1,0 +1,3 @@
+Hal baru yang saya dapat dari tugas 3 ini code char, konsep dasar OOP, dan char.lower.
+Hal yang sulit saya pahami pada tugas 3 ini adalah code char, dan konsep dasar OOP.
+waktu saya membuat tugas ini adalah 3 hari. 
