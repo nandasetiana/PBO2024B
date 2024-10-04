@@ -1,0 +1,285 @@
+KEGIATAN MANDIRI
+
+Dasar Pemrograman Python
+
+	Pendahuluan
+
+Apa itu Python?
+Python adalah bahasa pemrograman yang populer. Bahasa ini diciptakan oleh Guido van Rossum dan dirilis pada tahun 1991.
+
+Digunakan untuk:
+pengembangan web (sisi server),
+pengembangan perangkat lunak,
+matematika,
+skrip sistem.
+
+Apa yang dapat dilakukan Python?
+Python dapat digunakan pada server untuk membuat aplikasi web.
+Python dapat digunakan bersama perangkat lunak untuk membuat alur kerja.
+Python dapat terhubung ke sistem basis data. Ia juga dapat membaca dan memodifikasi berkas.
+Python dapat digunakan untuk menangani data besar dan melakukan matematika yang rumit.
+Python dapat digunakan untuk pembuatan prototipe cepat, atau untuk pengembangan perangkat lunak siap produksi.
+
+Mengapa Python?
+Python bekerja pada berbagai platform (Windows, Mac, Linux, Raspberry Pi, dll).
+Python memiliki sintaksis sederhana yang mirip dengan bahasa Inggris.
+Python memiliki sintaksis yang memungkinkan pengembang untuk menulis program dengan lebih sedikit baris daripada beberapa bahasa pemrograman lainnya.
+Python berjalan pada sistem interpreter, yang berarti kode dapat dieksekusi segera setelah ditulis. Ini berarti pembuatan prototipe dapat dilakukan dengan sangat cepat.
+Python dapat diperlakukan secara prosedural, berorientasi objek, atau fungsional.
+
+Senang mengetahuinya
+Versi utama Python terbaru adalah Python 3, yang akan kita gunakan dalam tutorial ini. Namun, Python 2, meskipun tidak diperbarui dengan apa pun selain pembaruan keamanan, masih cukup populer.
+Dalam tutorial ini Python akan ditulis dalam editor teks. Python dapat ditulis dalam Lingkungan Pengembangan Terpadu, seperti Thonny, Pycharm, Netbeans atau Eclipse yang sangat berguna saat mengelola koleksi file Python yang lebih besar.
+
+Sintaksis Python dibandingkan dengan bahasa pemrograman lain
+Python dirancang agar mudah dibaca, dan memiliki beberapa kesamaan dengan bahasa Inggris dengan pengaruh matematika.
+Python menggunakan baris baru untuk melengkapi suatu perintah, berbeda dengan bahasa pemrograman lain yang sering menggunakan titik koma atau tanda kurung.
+Python bergantung pada indentasi, menggunakan spasi, untuk menentukan cakupan; seperti cakupan loop, fungsi, dan kelas. Bahasa pemrograman lain sering menggunakan tanda kurung kurawal untuk tujuan ini.
+
+	Variabel
+Dalam pemrograman Python, variabel adalah tempat penyimpanan untuk data. Anda dapat menggunakan variabel untuk menyimpan berbagai jenis data. Berikut adalah beberapa jenis variabel dasar yang umum digunakan:
+1.	Integer (int): Angka bulat.
+python
+Salin kode
+umur = 25
+2.	Float: Angka desimal.
+python
+Salin kode
+tinggi = 1.75
+3.	String (str): Teks atau karakter.
+python
+Salin kode
+nama = "Ali"
+4.	Boolean (bool): Nilai benar (True) atau salah (False).
+python
+Salin kode
+is_active = True
+5.	List: Koleksi yang terurut dari item.
+python
+Salin kode
+daftar_nama = ["Ali", "Budi", "Citra"]
+6.	Tuple: Koleksi yang tidak dapat diubah.
+python
+Salin kode
+koordinat = (10.0, 20.0)
+7.	Dictionary (dict): Kumpulan pasangan kunci-nilai.
+python
+Salin kode
+siswa = {"nama": "Ali", "umur": 25}
+Contoh Penggunaan Variabel
+python
+Salin kode
+# Menyimpan informasi siswa
+siswa_nama = "Budi"
+siswa_umur = 20
+siswa_tinggi = 1.68
+siswa_is_active = True
+
+# Menampilkan informasi siswa
+print(f"Nama: {siswa_nama}, Umur: {siswa_umur}, Tinggi: {siswa_tinggi}, Aktif: {siswa_is_active}")
+
+
+	Tipe data
+
+Python memiliki tipe data bawaan berikut, dalam kategori berikut:
+
+Tipe Teks:	str
+Tipe Numerik:	intBahasa Indonesia float: complex
+Jenis Urutan:	listBahasa Indonesia tuple: range
+Jenis Pemetaan:	dict
+Jenis Set:	setBahasa Indonesia:frozenset
+Tipe Boolean:	bool
+Tipe Biner:	bytesBahasa Indonesia bytearray: memoryview
+Tidak ada Tipe:	NoneType
+
+Mengatur Tipe Data
+Dalam Python, tipe data ditetapkan saat Anda menetapkan nilai ke variabel:
+x = "Hello World"	str	
+x = 20	         int	
+x = 20.5  	float	
+x = 1j	   complex	
+x = ["apple", "banana", "cherry"]	list	
+x = ("apple", "banana", "cherry")	tuple	
+x = range(6)	range	
+x = {"name" : "John", "age" : 36}	dict	
+x = {"apple", "banana", "cherry"}	set	
+x = frozenset({"apple", "banana", "cherry"})	frozenset	
+x = True  	bool	
+x = b"Hello"	bytes	
+x = bytearray(5)	  bytearray	
+x = memoryview(bytes(5))	    memoryview	
+x = None	NoneType
+
+	Operator 
+
+Operator digunakan untuk melakukan operasi pada variabel dan nilai.
+
+Python membagi operator ke dalam kelompok berikut:
+
+Operator Aritmatika
+Operator penugasan
+Operator perbandingan
+Operator logika
+Operator identitas
+Operator keanggotaan
+Operator bitwise
+Operator Aritmatika Python
+Operator aritmatika digunakan dengan nilai numerik untuk melakukan operasi matematika umum:
+
+Operator	Name	Example	Try it
++	Addition	x + y	
+-	Subtraction	x - y	
+*	Multiplication	x * y	
+/	Division	x / y	
+%	Modulus	x % y	
+**	Exponentiation	x ** y	
+//	Floor division	x // y	
+Operator Penugasan Python
+Operator penugasan digunakan untuk menetapkan nilai ke variabel:
+
+Operator	Example	Same As	Try it
+=	x = 5	x = 5	
++=	x += 3	x = x + 3	
+-=	x -= 3	x = x - 3	
+*=	x *= 3	x = x * 3	
+/=	x /= 3	x = x / 3	
+%=	x %= 3	x = x % 3	
+//=	x //= 3	x = x // 3	
+**=	x **= 3	x = x ** 3	
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3	
+:=	print(x := 3)	x = 3
+print(x)
+
+
+	Komentar
+
+Komentar dapat digunakan untuk menjelaskan kode Python.
+
+Komentar dapat digunakan untuk membuat kode lebih mudah dibaca.
+
+Komentar dapat digunakan untuk mencegah eksekusi saat menguji kode.
+
+Membuat Komentar
+Komentar dimulai dengan #, dan Python akan mengabaikannya:
+
+ContohDapatkan Server Python Anda sendiri
+#This is a comment
+print("Hello, World!")
+Komentar dapat ditempatkan di akhir baris, dan Python akan mengabaikan sisa baris:
+
+
+Contoh
+print("Hello, World!") #This is a comment
+Komentar tidak harus berupa teks yang menjelaskan kode, komentar juga dapat digunakan untuk mencegah Python mengeksekusi kode:
+
+Contoh
+#print("Hello, World!")
+print("Cheers, Mate!")
+
+	Kondisi
+
+Kondisi Python dan pernyataan If
+Python mendukung kondisi logika umum dari matematika:
+
+Sama dengan: a == b
+Tidak Sama Dengan: a != b
+Kurang dari: a < b
+Kurang dari atau sama dengan: a <= b
+Lebih besar dari: a > b
+Lebih besar atau sama dengan: a >= b
+Kondisi ini dapat digunakan dalam beberapa cara, yang paling umum adalah dalam pernyataan "if" dan perulangan.
+
+"Pernyataan if" ditulis dengan menggunakan kata kunci if .
+
+Pernyataan if:
+
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a")
+Dalam contoh ini, kami menggunakan dua variabel, a dan b , yang digunakan sebagai bagian dari pernyataan if untuk menguji apakah b lebih besar dari a . Karena a adalah 33 , dan b adalah 200 , kami tahu bahwa 200 lebih besar dari 33, jadi kami mencetak ke layar bahwa "b lebih besar dari a".
+
+Lekukan
+Python mengandalkan indentasi (spasi di awal baris) untuk menentukan cakupan kode. Bahasa pemrograman lain sering menggunakan tanda kurung kurawal untuk tujuan ini.
+
+Contoh
+Pernyataan if, tanpa indentasi (akan menimbulkan kesalahan):
+
+a = 33
+b = 200
+if b > a:
+print("b is greater than a") # you will get an error
+
+Elif
+Kata kunci elif adalah cara Python untuk mengatakan "jika kondisi sebelumnya tidak benar, maka coba kondisi ini".
+
+Contoh
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+Dalam contoh ini a sama dengan b , jadi kondisi pertama tidak benar, namun kondisi elif benar, sehingga kita mencetak ke layar bahwa "a dan b sama".
+
+Else 
+Kata kunci else menangkap apa pun yang tidak ditangkap oleh kondisi sebelumnya.
+
+Contoh
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+Dalam contoh ini a lebih besar dari b , jadi kondisi pertama tidak benar, kondisi elif juga tidak benar, jadi kita masuk ke kondisi else dan mencetak ke layar bahwa "a lebih besar dari b".
+
+Anda juga dapat memiliki elsetanpa elif:
+
+Contoh
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+
+	Perulangan 
+
+Perulangan Python
+Python memiliki dua perintah loop primitif:
+
+while loop
+for loop
+
+1.Perulangan while
+Dengan loop while kita dapat mengeksekusi serangkaian pernyataan selama kondisinya benar.
+
+ContohDapatkan Server Python Anda sendiri
+Cetak i selama i kurang dari 6:
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+2. Perulangan Python For
+Perulangan for digunakan untuk mengulang suatu rangkaian (bisa berupa daftar, tupel, kamus, set, atau string).
+
+Ini tidak seperti kata kunci for dalam bahasa pemrograman lain, dan bekerja lebih seperti metode iterator seperti yang ditemukan dalam bahasa pemrograman berorientasi objek lainnya.
+
+Dengan for loop kita dapat mengeksekusi serangkaian pernyataan, sekali untuk setiap item di dalam suatu list, tuple, set, dan seterusnya.
+
+ContohDapatkan Server Python Anda sendiri
+Cetak setiap buah dalam daftar buah:
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
